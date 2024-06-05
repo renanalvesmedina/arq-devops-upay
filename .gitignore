@@ -1,0 +1,25 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Ignore override files as they are usually used to override resources for specific environments
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore Terraform plan files
+*.tfplan
+
+# Ignore Terraform provider lock file
+.terraform.lock.hcl
+
+# Ignore the .terraformrc & terraform.rc files as they are usually used for configuring local Terraform behavior
+terraform.rc
+.terraformrc
